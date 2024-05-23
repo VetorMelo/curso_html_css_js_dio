@@ -1,140 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu projeto HTML</title>
+    <title>🐾 Clínica Veterinária Help to Pets</title>
+    <link rel="stylesheet" href="base.css">
 </head>
-
 <body>
-    <h1 id="inicio">Iniciando com HTML</h1>
-    <HR />
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#">Página principal</a></li>
+                <li><a href="#">Sobre a Clínica</a></li>
+                <li><a href="#">Horários de Atendimento</a></li>
+            </ul>
+        </div>
 
-    <H2>Entendimentos sobre as aulas</H2>
-    <p><strong><u>Notas:</u> </strong>Abaixo você encontrará um pouco do que aprendi nas aulas sobre HTML.</p>
+        <div class="main">
+            <div class="header">
 
-    <ul>
-        <li><a href="#Os-primeiros-computadores">Os primeiros computadores</a></li>
-        <li><a href="#Lado-cliente-e-lado-servidor">Lado cliente e lado servidor</a></li>
-        <li><a href="#O-que-e-HTML">O que é HTML</a></li>
-        <li><a href="#O-que-sao-atributos">O que são atributos</a></li>
-        <li><a href="#Estrutura-basica-HTML">Estrutura básica HTML</a></li>
-        <li><a href="#Como-montar-seu-primeiro-site">Como montar seu primeiro site</a></li>
-    </ul>
+                <!-- Aqui vai o seu header -->
+                <img id="pet" src="/imagens/pets.jpg" alt="pata pet" height="440">
 
-        <h2 id="Os-primeiros-computadores">Os primeiros computadores</h2>
-        <small></small><a href="#inicio">Voltar</a></small>
-        <p>Os primeiros computadores surgiram na primeira metade do século XX e foram marcados por seu grande tamanho e
-            complexidade, contrastando fortemente com a tecnologia compacta e poderosa dos dias de hoje. O ENIAC
-            (Electronic Numerical Integrator and Computer), finalizado em 1945, é frequentemente considerado o primeiro
-            computador eletrônico de uso geral. Ocupando uma sala inteira e pesando cerca de 30 toneladas, o ENIAC
-            utilizava milhares de tubos de vácuo e era capaz de realizar cerca de 5.000 operações por segundo, uma
-            velocidade impressionante para a época.
 
-            <u>Outro marco importante foi o Colossus, desenvolvido pelos britânicos durante a Segunda Guerra Mundial para
-            decifrar códigos alemães. Embora não fosse um computador de uso geral, o Colossus foi fundamental para a
-            evolução da computação eletrônica</u>.
+            </div>
+    
+            <div class="content">
+                
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Seja Bem Vindo ao Help to Pets</h1>
 
-            Estes primeiros computadores eram principalmente utilizados para cálculos científicos e militares, devido à
-            sua capacidade de processar grandes volumes de dados com precisão e velocidade superiores às técnicas
-            mecânicas anteriores. A programação era feita diretamente no hardware, o que tornava o processo laborioso e
-            sujeito a erros.
+                <h2>Nós formamos uma clinica especializada para antedimento aos pets que nessecitam de atendimento de urgência e pronto socorro.</h2>
 
-            <i><sub>Com o tempo, os computadores evoluíram rapidamente. A introdução dos transistores na década de 1950, e
-            posteriormente dos circuitos integrados nos anos 1960, permitiu a miniaturização dos componentes e aumentou
-            significativamente a potência de processamento, pavimentando o caminho para os computadores pessoais que
-            começaram a surgir nas décadas seguintes. Esta evolução não apenas transformou a ciência e a engenharia, mas
-            também lançou as bases para a revolução digital que definiria o final do século XX e o início do século XXI</sub></i>.
-        </p>
+                <h2>Tambem realizamos antendimentos para consultas de rotina, exames e ultrasson</h2>
+            </div>
+    
+            <div class="footer">
+                
+                <!-- Aqui vai o seu rodapé -->
 
-        <h2 id="Lado-cliente-e-lado-servidor">Lado cliente e lado servidor</h2>
-        <small></small><a href="#inicio">Voltar</a></small>
-        <p>No desenvolvimento de aplicações web, os termos "lado cliente" e "lado servidor" referem-se aos dois
-            principais componentes que compõem a arquitetura da aplicação.
+            <p>atendimento 24h contato (12) 3955-0009</p>
 
-            O lado cliente (front-end) é a parte da aplicação que interage diretamente com o usuário final. Ele é
-            executado no navegador do usuário e é responsável pela interface gráfica e pela experiência do usuário.
-            Tecnologias como HTML, CSS e JavaScript são amplamente utilizadas no desenvolvimento do lado cliente. O
-            JavaScript, em particular, permite a criação de páginas web dinâmicas e interativas. O lado cliente envia
-            solicitações ao servidor e recebe dados em resposta, atualizando a interface conforme necessário.
+            <p>helptopets@gmail.com</p>
 
-            O lado servidor (back-end), por outro lado, é a parte da aplicação que roda em um servidor e é responsável
-            pelo processamento de lógica, gerenciamento de dados e manipulação das solicitações do cliente. O lado
-            servidor pode ser desenvolvido usando diversas linguagens de programação, como Python, Java, Ruby, PHP,
-            entre outras. Ele interage com bancos de dados, executa cálculos complexos, autentica usuários e gera
-            respostas apropriadas que são enviadas de volta ao cliente.
+            <p>CEP: 12323-000 Rua dos Pets, Jd dos Encontrados nº 10 - Jacareí </p>
 
-            A comunicação entre o lado cliente e o lado servidor geralmente ocorre por meio de solicitações HTTP. Quando
-            o usuário realiza uma ação na interface (como clicar em um botão), o lado cliente envia uma requisição ao
-            servidor, que processa a solicitação e retorna os dados necessários para atualizar a interface do usuário.
 
-            Essa divisão entre cliente e servidor permite a criação de aplicações escaláveis e eficientes, onde o
-            cliente se foca na interação com o usuário e o servidor lida com a lógica de negócios e o armazenamento de
-            dados. Essa arquitetura é fundamental para a maioria das aplicações web modernas.
-        </p>
-
-        <h2 id="O-que-e-HTML">O que é HTML</h2>
-        <small></small><a href="#inicio">Voltar</a></small>
-        <p>HTML (HyperText Markup Language) é a linguagem padrão utilizada para criar e estruturar páginas na web. Ele
-            define a estrutura básica de um documento web, utilizando uma série de elementos e tags que descrevem
-            diferentes partes do conteúdo, como títulos, parágrafos, links, imagens, tabelas e formulários.
-
-            Um documento HTML começa com a declaração
-            <!DOCTYPE html>, seguida por uma série de tags aninhadas dentro da tag <html>. As principais seções de um
-            documento HTML incluem a tag
-
-            <head>, que contém metadados como o título da página e links para estilos e scripts, e a tag
-
-            <body>, que contém o conteúdo visível da página.
-
-                Cada elemento HTML é representado por uma tag, que geralmente vem em pares de abertura e fechamento,
-                como <p> para parágrafos, <a> para links e <div> para divisões ou seções da página. Atributos podem ser
-                            adicionados às tags para fornecer informações adicionais, como href em uma tag <a> para
-                                especificar o URL de um link, ou src em uma tag para definir o caminho de uma
-                                imagem.
-
-                                HTML é fundamental para a web, pois permite que os desenvolvedores criem e organizem o
-                                conteúdo de maneira lógica e acessível. Com a ajuda de CSS (Cascading Style Sheets) para
-                                estilização e JavaScript para interatividade, HTML forma a base de praticamente todas as
-                                páginas e aplicações web modernas.
-                </p>
-
-                <h2 id="O-que-sao-atributos">O que são atributos</h2>
-                <small></small><a href="#inicio">Voltar</a></small>
-                <p>Atributos em HTML são usados para fornecer informações adicionais sobre elementos HTML. Eles são
-                    incluídos dentro das tags de abertura dos elementos e geralmente vêm na forma de pares nome-valor,
-                    separados por um sinal de igual. Por exemplo
-                </p>
-
-                <h2 id="Estrutura-basica-HTML">Estrutura básica HTML</h2>
-                <small></small><a href="#inicio">Voltar</a></small>
-                <p>A estrutura básica de um documento HTML define a forma fundamental de uma página web e inclui uma
-                    série de elementos e tags que organizam e descrevem o conteúdo. Um documento HTML típico começa com
-                    a declaração
-                    <!DOCTYPE html>, que informa ao navegador que está lidando com um documento HTML5.
-                </p>
-
-                <h2 id="Como-montar-seu-primeiro-site">Como montar seu primeiro site</h2>
-                <small></small><a href="#inicio">Voltar</a></small>
-                <p>Montar seu primeiro site pode parecer uma tarefa desafiadora, mas com algumas orientações básicas,
-                    você pode criar uma página web funcional e atrativa. Aqui estão os passos fundamentais para começar:
-
-                    <strong>1. Planejamento</strong>
-                    Antes de começar a escrever código, planeje o conteúdo e a estrutura do seu site. Decida quais
-                    páginas você precisa (como Início, Sobre, Contato) e o tipo de conteúdo que cada página terá.
-
-                    <strong>2. Configuração do Ambiente</strong>
-                    Escolha um editor de texto apropriado para codificação, como Visual Studio Code, Sublime Text ou
-                    Atom. Esses editores oferecem recursos úteis como destaque de sintaxe e autocompletar.
-
-                    <strong>3. Criação da Estrutura HTML</strong>
-                    Comece criando um arquivo HTML, geralmente chamado index.html, que servirá como a página inicial do
-                    seu site. Utilize a estrutura bási/ca do HTML:
-                </p>
-                <small></small><a href="#inicio">Inicio</a></small>
-
-    </ul>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
