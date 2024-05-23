@@ -39,10 +39,10 @@ body {
 }
 
 .menu a:hover {
-  color: rgb(57, 58, 58);
-  text-decoration: underline;
-  background-color: rgba(245, 82, 237, 0.404);
-}
+    color: rgb(57, 58, 58);
+    text-decoration: underline;
+    background-color: rgba(245, 82, 237, 0.404);
+  }
 
 .header {
     background-color: rgb(163, 148, 148);
